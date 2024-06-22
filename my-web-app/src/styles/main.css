@@ -1,3 +1,4 @@
+/* Add your desired styling here */
 /*Header Styling*/
 
 /* styles/main.css */
@@ -15,53 +16,6 @@ header {
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 1rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s ease; /* Smooth color transition */
-}
-
-nav ul li a:hover {
-    color: #f92c85; /* Accent color on hover */
-}
-
-/*Body Styling*/
-
-/* Home Page */
-.main-content {
-    padding: 2rem;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* About Page */
-.about-content {
-    padding: 2rem;
-    background-color: #f9f9f9;
-}
-
-/* Services Page */
-.services-content {
-    padding: 2rem;
-    background-color: #f2f2f2;
-}
-
-/* Contact Page */
-.contact-content {
-    padding: 2rem;
-    background-color: #fff;
-}
-
 /*Footer Styling*/
 
 /* Footer */
@@ -72,3 +26,57 @@ footer {
     padding: 1rem;
     font-size: 0.8rem;
 }
+
+/* Add your desired styling here */
+.todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #c82333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 10px;
+} 
+*/
